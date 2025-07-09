@@ -1,0 +1,96 @@
+body {
+    background: #001d3d;
+    font-family: "Nunito", sans-serif;
+}
+
+.blurb h2 {
+   color: #ffd60a;
+   font-weight: 100;
+   font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #ffc300;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #ffd60a;
+}
+
+#mainNavbar .navbar-brand {
+    color: #ffc300;
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    color: #ffc300;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: rgb(107, 131, 238);
+    transition: background 500ms;
+}
+
+/* Add a container for images to ensure alignment and consistent sizing */
+.img-container {
+    width: 100%;
+    height: 320px; /* Adjust as needed for your layout */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    margin-bottom: 1.5rem;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-container {
+        height: 200px;
+    }
+}
+
+
+
+
